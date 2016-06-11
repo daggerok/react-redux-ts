@@ -1,0 +1,8 @@
+.DS_Store
+*.log*
+/typings*
+/index.html
+/node_modules/
+/dist/
+/.idea/
+!/.idea/codeStyleSettings.xml
