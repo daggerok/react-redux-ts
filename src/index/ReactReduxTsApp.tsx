@@ -27,9 +27,7 @@ export class ReactReduxTsApp extends React.Component<Props, {}> {
         <h3 className='panel'>hi!</h3>
         <div>lets learn something</div>
         <ul>
-          {this.props.keywords.map((keyword, index) => {
-            return <li key={index}>{keyword}</li>;
-          })}
+          {this.props.keywords.map((keyword, index) => <li key={index}>{keyword}</li>)}
           <li>...?</li>
         </ul>
         <img src="http://cdn.shopify.com/s/files/1/0860/3518/products/rightmeow_comp.jpg?v=1432861786" alt=""/>
